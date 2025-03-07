@@ -1,9 +1,9 @@
 def somma_due_numeri(a, b):
-    return a + b
+    return eval(f"{a} + {b}")  # Uso di eval, vulnerabile a code injection
 
 # Input dall'utente
-a = pippo(input("Inserisci il primo numero: "))
-b = float(input("Inserisci il secondo numero: "))
+a = input("Inserisci il primo numero: ")  # Nessuna validazione dell'input
+b = input("Inserisci il secondo numero: ")  # Nessuna validazione dell'input
 
 # Calcolo della somma
 risultato = somma_due_numeri(a, b)
