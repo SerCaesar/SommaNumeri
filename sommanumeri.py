@@ -2,7 +2,7 @@ def somma_due_numeri(a, b):
     return a + b
 
 # Input dall'utente
-a = float(input("Inserisci il primo numero: "))
+a = pippo(input("Inserisci il primo numero: "))
 b = float(input("Inserisci il secondo numero: "))
 
 # Calcolo della somma
